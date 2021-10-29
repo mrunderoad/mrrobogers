@@ -1,9 +1,9 @@
 # Mr. Robogers
 
-#### By:
+## By:
 Isaac Overstreet
 
-#### Description:
+## Description:
 This application was made to certain numbers into words such as "Beep!" "Boop!" and "Won't you be my neighbor?".
 This is how a robot (Mr. Rogers as a robot) would talk.
 Put in a number up to 40 and it will return with the correct wording.

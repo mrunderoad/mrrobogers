@@ -5,8 +5,9 @@
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 490px;
-  margin-right: 490px;
-
+  margin-right: 460px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 1px 1px whitesmoke;
 }
 
 body  {
@@ -27,22 +28,30 @@ body  {
 #output {
   display: none;
   color: rgb(0, 0, 0);
-  font-size: 20px;
-  background: rgb(161, 160, 160);
+  font-size: 25px;
+  font-family: monospace;
+  background: rgb(245, 135, 135);
   text-align: center;
-  border: solid blue;
+  border: 5px outset rgb(206, 89, 241);
   border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .form-group {
   text-align: center;
-  color: rgb(0, 136, 255);
-  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-shadow: 1px 1px yellow;
   background: aquamarine;
   margin-left: 425px;
   margin-right: 425px;
   border-radius: 25px;
   margin-top: 30px;
+  padding-top: 10px;
 }
 
 h1 {
@@ -55,8 +64,23 @@ h2 {
   text-shadow: 2px 2px black;
 }
 
+h3 {
+  font-size: 40px;
+  text-align: center;
+  color: crimson;
+  text-shadow: 2px 2px darkgoldenrod;
+}
+
 img {
   margin-left: 380px;
   width: 300px;
   height: 300px;
+}
+
+.robot {
+  border:  10px solid yellow;
+  margin-left: 410px;
+  margin-right: 410px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }

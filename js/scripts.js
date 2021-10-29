@@ -20,7 +20,7 @@ function beepBoop(number) {
     output.push(i);
   }
 }
-  return ' ' + output.join(' ',' ') + ' ';
+  return ' ' + output.join(', ',', ') + ' ';
 
 }
 
