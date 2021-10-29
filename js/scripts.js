@@ -20,6 +20,16 @@ function beepBoop(number) {
     output.push(i);
   }
 }
-  return '' + output.join('','') + '';
+  return ' ' + output.join(' ',' ') + ' ';
 
 }
+
+
+
+$(document).ready(function() {
+  $("form#formOne").submit(function(event) {
+    event.preventDefault();
+    let phrase = $("#person1").val();
+    $("#output").text(beepBoop(phrase));
+  });
+});

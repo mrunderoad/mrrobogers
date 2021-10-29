@@ -1,0 +1,28 @@
+.btn {
+  color: black;
+  background-color: cadetblue;
+  padding: 5px;
+  margin: 15px;
+}
+
+body  {
+  background-image: url(https://nybooks.com/wp-content/uploads/2018/12/sullivan_1-0117191.jpg);
+}
+
+.jumbotron {
+  opacity: .5;
+  color: black;
+}
+
+#output {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background: rgb(161, 160, 160);
+}
+
+.form-group {
+  text-align: center;
+  color: rgb(0, 136, 255);
+  font-size: 30px;
+  background: aquamarine;
+}
