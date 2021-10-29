@@ -31,5 +31,6 @@ $(document).ready(function() {
     event.preventDefault();
     let phrase = $("#person1").val();
     $("#output").text(beepBoop(phrase));
+    $("#output").show();
   });
 });
