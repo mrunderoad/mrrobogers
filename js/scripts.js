@@ -4,9 +4,9 @@ let output = beepBoop(number);
 function beepBoop(number) {
   let output = [];
   for (let i = 0; i <= number; i++) {
-    if (i === 13) { 
+    if (i === 13 || i === 23) { 
       output.push('Won\'t you be my neighbor?');
-  } else if (i === 21) {
+  } else if (i === 21 || i === 12) {
       output.push("Boop!");
   } else if (i === 32) {
       output.push('Won\'t you be my neighbor?');

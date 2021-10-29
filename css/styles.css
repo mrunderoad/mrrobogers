@@ -2,7 +2,11 @@
   color: black;
   background-color: cadetblue;
   padding: 5px;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 490px;
+  margin-right: 490px;
+
 }
 
 body  {
@@ -12,12 +16,15 @@ body  {
 .jumbotron {
   opacity: .5;
   color: black;
+  text-align: center;
+
 }
 
 #output {
   color: rgb(0, 0, 0);
   font-size: 20px;
   background: rgb(161, 160, 160);
+  text-align: center;
 }
 
 .form-group {
@@ -25,4 +32,12 @@ body  {
   color: rgb(0, 136, 255);
   font-size: 30px;
   background: aquamarine;
+  margin-left: 425px;
+  margin-right: 425px;
+  border-radius: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: cyan;
 }
