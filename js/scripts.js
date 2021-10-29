@@ -1,17 +1,13 @@
-function oneBeep(number) {
-  const beep = "Beep!"
-  return beep;
+function beepBoop(number) {
+  const numbers = [1, 2, 3];
+  const boops = ["Beep!", "Boop!", "Won't you be my neighbor?"];
+  let boopBeep = "";
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (number === numbers[i]) {
+      boopBeep = boops[i]
+      return boopBeep;
+    }
+  } 
 }
 
-function twoBoop(number) {
-  const boop = "Boop!"
-  return boop;
-}
-
-function mrRobogers(number) {
-  if (number === 1) {
-    return oneBeep(number);
-  } else if (number === 2) {
-    return twoBoop(number);
-  }
-}
